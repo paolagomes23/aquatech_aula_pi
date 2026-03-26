@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('assets/imgs/bg-jelly-fish-para-home.png') no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  border-bottom: 1px solid #185968;
+  padding: 10px 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  color: #287181;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container-login {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar li.agora a {
+  color: orange; 
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: #33c6d6;
+}
+
+
+.login {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login {
+  background-color: rgba(220, 220, 220, 0.9); /* cinza claro transparente */
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 480px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: #333;
+  text-align: center;
+}
+
+.card-login h2 {
+  margin-bottom: 20px;
+  color: #ca2239; 
+}
+
+.formulario .campo {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.formulario .campo span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #ca2239;
+}
+
+.formulario input {
+  width: 95%;
+  padding: 8px 10px;
+  border: 1.5px solid #287181;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  text-align: center;
+}
+
+.formulario input:focus {
+  outline: none;
+  border-color: #ca2239; 
+}
+
+.botao {
+  width: 20%;
+  padding: 10px 0;
+  background-color: #ca2239;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #a91a2e;
+}
+
+.footer {
+  height: 40px;
+  background-color: #2bb3c0;
+}
